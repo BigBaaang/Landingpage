@@ -10,7 +10,7 @@ const size = carouselImages[0].clientWidth;
 
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
-//Button Listeners
+// Button Listeners
 nextButton.addEventListener('click', ()=> {
     if (counter >= carouselImages.length - 1) return;
     carouselSlide.style.transition = "transform 0.4s ease-in-out";
@@ -25,7 +25,7 @@ prevButton.addEventListener('click', ()=> {
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });
 
-//Event Listener
+// Event Listener
 carouselSlide.addEventListener('transitionend', ()=> {
     if (carouselImages[counter].id === 'lastClone') {
         carouselSlide.style.transition = "none";
