@@ -1,6 +1,6 @@
 # Landingpage
 
-Erste Landingpage zum ersten erstellten Spiel. :)
+Erste selbsterstellte Landingpage zu meinem ersten erstellten (altbekannten) Spiel. :)
 
 ## Verwendete Sprachen
 - HTML
